@@ -1,0 +1,43 @@
+{
+  "name": "detect-mocha",
+  "description": "Detect if Mocha is running",
+  "version": "0.1.0",
+  "homepage": "https://github.com/AndreasPizsa/detect-mocha",
+  "author": "Andreas Pizsa (https://github.com/AndreasPizsa)",
+  "repository": "AndreasPizsa/detect-mocha",
+  "bugs": {
+    "url": "https://github.com/AndreasPizsa/detect-mocha/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && ./node_modules/.bin/codecov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "dependencies": {
+    "global-var": "^0.1.0"
+  },
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "coveralls": "*",
+    "istanbul": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "mocha",
+    "detect",
+    "running",
+    "active",
+    "test"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
