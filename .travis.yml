@@ -1,7 +1,7 @@
-before_install:
-  - pip install codecov
-after_success:
-  - codecov
+#before_install:
+#  - pip install codecov
+#after_success:
+#  - codecov
 sudo: false
 language: node_js
 node_js:
