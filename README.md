@@ -1,5 +1,7 @@
 # detect-mocha ![Travis](https://img.shields.io/travis/AndreasPizsa/detect-mocha.svg?style=flat-square) ![Coverage Status](https://img.shields.io/coveralls/AndreasPizsa/detect-mocha.svg?style=flat-square) ![Coverage Status](https://img.shields.io/codecov/c/github/AndreasPizsa/global-var.svg?style=flat-square) ![Downloads](https://img.shields.io/npm/dm/detect-mocha.svg?style=flat-square)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AndreasPizsa/detect-mocha.svg)](https://greenkeeper.io/)
+
 > Detect if Mocha is running
 
 ## Install

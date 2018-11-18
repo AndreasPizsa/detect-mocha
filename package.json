@@ -23,7 +23,7 @@
     "global-var": "^0.1.0"
   },
   "devDependencies": {
-    "codecov": "^1.0.1",
+    "codecov": "^3.1.0",
     "coveralls": "*",
     "istanbul": "*",
     "mocha": "*",
